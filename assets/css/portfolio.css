@@ -64,6 +64,11 @@ body {
     
 }
 
+#small-project-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 /*Footer*/
 footer {
   padding: 20px 35px;
