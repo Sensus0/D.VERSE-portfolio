@@ -4,7 +4,7 @@
     padding: 0;
   }
 
-
+/*Mediaqueries
   /*Header*/
 header {
     padding: 20px 35px;
@@ -47,6 +47,11 @@ header nav ul li a {
 }
 
 /*Body*/
+.container h2 {
+  text-align: center;
+}
+
+
 body {
     color: royalblue;
     font-family: Arial, Helvetica, sans-serif;
@@ -54,15 +59,19 @@ body {
 
 #big-project {
     border: 2px solid green;
-    /* width: fit-content;
-    margin: 0 auto; */
+    width: fit-content;
+    margin: 0 auto; 
     text-align: center;
 }
 
 #main-photo {
     width: 1000px;
-    
 }
+
+#main-photo-1 {
+  width: 500px;
+}
+
 
 #small-project-1 {
   display: flex;
@@ -108,4 +117,17 @@ footer nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
 
+}
+
+/*Mediaqueries*/
+@media screen and (max-width: 700px){
+  #main-photo {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 350px){
+  #main-photo-1 {
+    width: 800px;
+  }
 }
